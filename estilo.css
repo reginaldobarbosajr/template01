@@ -1,0 +1,130 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    color: #ffffff;
+    background: linear-gradient(68.5deg, #786fd1 16.62%, #432344 85.5%);
+
+}
+
+
+.cabecalho {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+
+.logo-topo {
+    height: 20%;
+}
+
+
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+
+.conteudo {
+    border-top: 0.4px;
+    margin-bottom: 48px;
+}
+
+
+.conteudo-principal {
+    background-image: url(imagem/conection.png);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7%;
+    margin-bottom: 50px;
+}
+
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.imagem-conteudo-principal {
+    width: 40%;
+    height: 45%;
+    border-color: #CFB53B;
+    border-style: solid;
+    border-radius: 100%;
+    display: inline-block;
+    box-shadow:
+    1px 1.6px 2.2px #00000021,
+    2.4px 3.8px 5.3px #0000002c,
+    4.5px 7.1px 10px #00000034,
+    8px 12.7px 17.9px #00000039,
+    15px 23.8px 33.4px #0000003d,
+    36px 57px 80px #00000045;
+}
+
+
+
+.conteudo-secundario {
+    background-color: #432344;
+    background-image: url();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+
+
+h1 {
+    font-size: 250%;
+    color: #e4c369;
+}
+
+
+h2 {
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 130%;
+}
+
+
+.rodape {
+    background: linear-gradient(68.5deg, #142E4A 36.62%, #571991 85.5%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+    padding: 5%;
+}
+
+.rodape-item {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
